@@ -39,7 +39,7 @@
           "continue_on_failure": false,
           "display_name": "HTTP Request",
           "method": "GET",
-          "relative_url": "api/ip",
+          "relative_url": "api/timezone",
           "runtime_user": {
             "override_target_runtime_user": false,
             "target_default": true
