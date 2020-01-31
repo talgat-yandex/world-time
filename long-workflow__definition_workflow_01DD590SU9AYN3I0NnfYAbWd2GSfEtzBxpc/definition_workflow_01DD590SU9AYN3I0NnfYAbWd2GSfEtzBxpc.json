@@ -67,6 +67,34 @@
         "object_type": "definition_activity"
       },
       {
+        "unique_name": "definition_activity_01DD6LERVLPHX5XGkquQWdGtfoDjr6M16OC",
+        "name": "To Upper",
+        "title": "To Upper",
+        "type": "core.string2upper",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "To Upper",
+          "skip_execution": false,
+          "source": "$activity.definition_activity_01DD657ZALU6W52z576Pz2PpZkzUvF5d8gI.output.output_xml$"
+        },
+        "object_type": "definition_activity"
+      },
+      {
+        "unique_name": "definition_activity_01DD6LLIGE7Y75BdApexZ1f0CJB0zkcem5a",
+        "name": "To Lower",
+        "title": "To Lower",
+        "type": "core.string2lower",
+        "base_type": "activity",
+        "properties": {
+          "continue_on_failure": false,
+          "display_name": "To Lower",
+          "skip_execution": false,
+          "source": "$activity.definition_activity_01DD6LERVLPHX5XGkquQWdGtfoDjr6M16OC.output.uppercase_text$"
+        },
+        "object_type": "definition_activity"
+      },
+      {
         "unique_name": "definition_activity_01DD59M6FF32H6iInGkNIfcwbkot65WfOOW",
         "name": "Swagger HTTP Request",
         "title": "Swagger HTTP Request",
